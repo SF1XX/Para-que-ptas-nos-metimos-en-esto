@@ -52,3 +52,5 @@ Aquí se implementa la matemática del Escenario 4. Todas las funciones reciben 
 *   Usa un bucle `do-while` para mantener el menú abierto hasta que el usuario elija salir (Opción `0`).
 *   Usa la estructura `switch(opcion)` para derivar la ejecución. Si es `1`, llama a `ejecutar_simulacion()` del módulo de artemis.
 
+## Pa compilar el proyecto
+Mandele esto en la consola y te genera el .exe `gcc main.c artemis.c validaciones.c -o simulador_artemis -lm`
